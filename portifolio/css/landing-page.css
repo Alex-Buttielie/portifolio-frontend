@@ -1,0 +1,581 @@
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@0;1&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("_fonts/bubblegum-sans-regular.otf");
+}
+
+.body {
+    
+    height: 4500px;
+    background: linear-gradient(180deg, black 61.38%, #BFBFBF 105.93%);
+    left: 0px;
+    right: 0px;
+    zoom: 65%;
+    /*display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: start;*/
+  
+}
+
+.imagem3 {
+    position: absolute;
+    left: 2200px;
+    top: 320px;
+    zoom: 50%;
+    opacity: 15%;
+    border-radius: 25px;
+}
+
+.nomeLogo {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 100px;
+    top: 35px;
+    font-family: 'Trispace', Impact, Haettenschweiler;
+    font-style: normal;
+    font-weight: 150;
+    font-size: 90px;
+    line-height: 160%;
+    /* or 64px */
+    color: #FFFFFF;
+    mix-blend-mode: screen;
+    text-shadow: 0px 6px 6px orange;
+}
+
+.sobre {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 750px;
+    top: 78px;
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 32px */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    text-shadow: 0px 1px 1px orange;
+}
+
+li#ajuda {
+    /* Ajuda */
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 950px;
+    top: 78px;
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 160%;
+    /* identical to box height, or 32px */
+    /* 1 */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    text-shadow: 0px 1px 1px orange;
+}
+
+li#recurso {
+    /* Recursos */
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 1150px;
+    top: 78px;
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 160%;
+    /* identical to box height, or 32px */
+    /* 1 */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    text-shadow: 0px 1px 1px orange;
+}
+
+li#inscreva {
+    /* Inscreva-se */
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 1350px;
+    top: 78px;
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 160%;
+    /* or 32px */
+    /* 1 */
+    color: white;
+    mix-blend-mode: normal;
+    text-shadow: 0px 1px 1px orange;
+}
+
+.segundoTitulo {
+    /* Seja bem-vindo */
+    position: relative;
+    width: 758px;
+    height: 184px;
+    left: 90px;
+    top: -200px;
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    /* or 88px */
+    display: flex;
+    align-items: center;
+    transition: 10s;
+    color: #FFFFFF;
+    border-color: 1px solid #008000;
+    text-shadow: 0px 4px 4px red;
+}
+
+button#meConheca {
+    position: absolute;
+    width: 565px;
+    height: 120px;
+    top: 400px;
+    background-color: rgb(142, 142, 4);
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    /* or 22px */
+    display: flexbox;
+    align-items: center;
+    color: white;
+    border-radius: 15px;
+    left: 100px;
+    border-color: white;
+}
+
+.textoApresentacao {
+    position: relative;
+    width: 720px;
+    height: 230px;
+    left: 90px;
+    top: 100px;
+    font-family: 'Amatic SC', cursive;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 160%;
+    /* or 37px */
+    color: white;
+}
+
+a#textSobre {
+    color: white;
+}
+
+
+.fabricaDeSoftware {
+    position: relative;
+    width: 975px;
+    height: 320.73px;
+    left: 90px;
+    top: -50px;
+    font-family: 'Anton', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 130%;
+    /* or 65px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    mix-blend-mode: normal;
+    text-shadow: 0px 3px 3px red;
+    transition: 10s;
+}
+
+.sobreFabricaDeSoftware {
+    position: relative;
+    width: 882px;
+    height: 932.73px;
+    left: 90px;
+    top: -90px;
+    font-family: 'Amatic SC', cursive;
+    font-style: normal;
+    font-weight: 0;
+    font-size: 35px;
+    line-height: 160%;
+    /* or 40px */
+    /* 1 */
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.caracteristica {
+    position: absolute;
+    width: 1137.28px;
+    height: 954px;
+    left: 164px;
+    top: -800px;
+}
+
+h1#caractericasMinhas {
+    position: absolute;
+    width: 503px;
+    height: 188px;
+    left: 400px;
+    top: -20px;
+    font-family: Abel;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 150%;
+    /* or 120px */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tituloQualidadeSoftware {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    left: 200px;
+    top: 150px;
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.tituloDisponibilidadeServico {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 930px;
+    top: 130px;
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.tituloImpressao {
+    position: absolute;
+    width: 200px;
+    height: 87px;
+    left: 215px;
+    top: 590px;
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.tituloDedicacaoTrabalho {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 930px;
+    top: 610px;
+    font-family: Abhaya Libre ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.retanguloQualidadeSoftware {
+    position: absolute;
+    width: 442px;
+    height: 358px;
+    left: 20px;
+    top: 100px;
+    /* 1 */
+    background: #979797;
+    opacity: 0.6;
+    filter: blur(2px);
+    border-radius: 50px;
+}
+
+.retanguloDisponibilidadeServico {
+    position: absolute;
+    width: 442px;
+    height: 358px;
+    left: 620px;
+    top: 100px;
+    /* 1 */
+    background: #979797;
+    opacity: 0.6;
+    filter: blur(2px);
+    border-radius: 20px;
+}
+
+.retanguloImpressao {
+    position: absolute;
+    width: 442px;
+    height: 358px;
+    left: 20px;
+    
+    top: 520px;
+    /* 1 */
+    background: #979797;
+    opacity: 0.6;
+    filter: blur(2px);
+    border-radius: 50px;
+}
+
+.retanguloDedicacaoTrabalho {
+    position: absolute;
+    width: 442px;
+    height: 358px;
+    left: 620px;
+    top: 520px;
+    background: #979797;
+    opacity: 0.6;
+    filter: blur(2px);
+    border-radius: 20px;
+    
+}
+.qualidadeSoftware{
+
+position: absolute;
+width: 220px;
+height: 160px;
+left: 200px;
+top: 240px;
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: 800;
+font-size: 21px;
+line-height: 160%;
+color: #FFFFFF;
+}
+.disponibilidadeServico{
+
+    
+position: absolute;
+width: 220px;
+height: 160px;
+left: 720px;
+top: 240px;
+font-family: 'Amatic SC', cursive;
+font-weight: 800;
+font-size: 21px;
+line-height: 160%;
+color: #FFFFFF;
+}
+.servicoImpressao{
+
+    position: absolute;
+    width: 220px;
+    height: 160px;
+    left: 200px;
+    top: 630px;
+    font-family: 'Amatic SC', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.dedicacaoTrabalho{      
+position: absolute;
+width: 220px;
+height: 160px;
+left: 720px;
+top: 630px;
+font-family: 'Amatic SC', cursive;
+font-style: normal;
+font-weight: 800;
+font-size: 21px;
+line-height: 160%;
+color: #FFFFFF;
+}
+.imagemRetangulo1{
+    position: absolute;
+    width: 232px;
+    height: 211px;
+    left:-100px;
+    top: 250px;
+    opacity: 0.5;
+    background-color: black;
+    
+    
+}
+.imagemRetangulo2{
+    position: absolute;
+    width: 241px;
+    height: 185px;
+    left: 470px;
+    top: 250px;
+    opacity: 0.5;
+    /*background: url(image4.png);*/
+}
+.imagemRetangulo3{
+    position: absolute;
+    width: 245px;
+    height: 181px;
+    left:-100px;
+    top: 650px;
+    opacity: 0.5;
+    /*background: url(image5.png);*/
+}
+.imagemRetangulo4{
+    position: absolute;
+    width: 230px;
+    height: 201px;
+    left: 470px;
+    top: 650px;
+    opacity: 0.5;
+    /*background: url(image6.png);*/
+}
+h2#retanguloTestemunhos{
+position: absolute;
+width: 1118px;
+height: 709px;
+left: 289px;
+top: 1000px;
+opacity: 0.5;
+background: rgb(128, 120, 196);
+border: 1px solid #000000;
+box-sizing: border-box;
+border-radius: 50px;
+}
+p#experiencias{
+position: absolute;
+width: 405px;
+height: 52px;
+left: 400px;
+top: 1050px;
+
+font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 130%;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+}
+.retangulo2{
+    left: 200px;
+    top: -50px;
+}
+.retangulo4{
+    left: 200px;
+}
+@media (max-width: 600px){
+    .body{
+     zoom: 50%;
+    }
+    li#meConheca{
+        top: 450px;
+    }
+    .segundoTitulo{
+        top: 250px;
+    }
+    .textoApresentacao{
+        top:300px ;
+    }
+    .fabricaDeSoftware{
+        top: 350px;
+    }
+    .sobreFabricaDeSoftware{
+        top:400px ;
+    }
+    .caracteristica{
+        top:350px;
+    } 
+    .retangulo2{
+        top:350px;
+        left: -600px;
+    }
+    .retangulo3{
+        top: 330px;
+    }
+    .retangulo4{
+        top: 730px;
+        left: -600px;
+    }
+    .tituloDisponibilidadeServico{
+        top:550px;
+        left: 200px;
+    }
+    .tituloImpressao{
+        top: 930px;
+    }
+    .tituloDedicacaoTrabalho{
+        top: 1330px;
+        left: 200px;
+    }  
+    .disponibilidadeServico{
+        left: 780px;
+    }  
+    .servicoImpressao{
+        left: 180px;
+    }
+    .dedicacaoTrabalho{
+        left: 780px;
+    }
+    
+}
+@media (min-width: 800px){
+    .body{
+     zoom:85%;
+    }
+    li#meConheca{
+        top: 450px;
+    }
+    .segundoTitulo{
+        top: 250px;
+    }
+    .textoApresentacao{
+        top:300px ;
+    }
+    .fabricaDeSoftware{
+        top: 350px;
+    }
+    .sobreFabricaDeSoftware{
+        top:400px ;
+    }
+    .caracteristica{
+        top:-300px ;
+    }
+    .disponibilidadeServico{
+        left: 780px;
+    }  
+    .servicoImpressao{
+        left: 180px;
+    }
+    .dedicacaoTrabalho{
+        left: 780px;
+    }
+  
+   
+}

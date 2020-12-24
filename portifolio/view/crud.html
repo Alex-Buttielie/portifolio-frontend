@@ -1,0 +1,47 @@
+<html ng-app="projetoEmprestimo">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Projeto Emprestimo</title>
+    
+    <link rel="stylesheet" type="text/css" href="lib/bootstrap/bootstrap.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular/angular-messages.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/projetoCtrl.js"></script>
+    <script src="js/services/amigosAPIService.js"></script>
+    <script src="js/value/configValue.js"></script>
+
+
+
+</head>
+    <body ng-controller="projetoCtrl as vm">
+        <div class="jumbotron">
+        <div>
+            <input class="form-control" type="text" ng-model="vm.criterioDeBusca" placeholder="O que você está buscando?"/>
+                    <table ng-show="vm.amigos.length > 0"  class="table table-striped">
+                        <tr >
+                            <th></th>
+                            <th><a href="" ng-click="vm.ordenarPor('nome')">Nome do Amigo</a></th>
+                            <th><a href="" ng-click="vm.ordenarPor('telefone')">Telefone</a></th>
+                        </tr>
+                        <tr ng-repeat="amigo in vm.amigos | filter:vm.criterioDeBusca | orderBy:vm.criterioDeOrdenacao:vm.direcaoDaOrdenacao track by $index">
+                            <td><input type="checkbox" ng-model="amigo.selecionado"/></td>
+                            <td>{{amigo.nome}}</td>
+                            <td>{{amigo.telefone}}</td>
+                        </tr>
+                    </table>
+                </div>
+                <form name ="amigoForm">
+                    <input class="form-control" type="text" ng-model="amigo.nome" name="nome" placeholder="Nome">
+                    <input class="form-control" type="text" ng-model="amigo.telefone" name="telefone" placeholder="Telefone Fixo">                    
+                </form>
+                <div class = "teste">
+                    <button class="btn btn-primary" ng-click ="vm.adicionarAmigos(amigo)">Adicionar Amigo</button>
+                    <button class="btn btn-danger"  ng-click="vm.apagarAmigos(vm.amigos)">Apagar Amigo</button>
+                    <button class="btn btn-success" ng-click="vm.alterarAmigos(vm.amigos)">Alterar Amigo</button>
+                </div>
+            </div>
+    </body>
+</html>
